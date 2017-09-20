@@ -10,19 +10,29 @@ inherited F_Clientes: TF_Clientes
   TextHeight = 13
   inherited Panel1: TPanel
     Width = 721
-    ExplicitLeft = 0
-    ExplicitTop = 0
-    ExplicitWidth = 692
+    ExplicitWidth = 721
   end
   inherited StatusBar1: TStatusBar
     Top = 650
     Width = 721
-    ExplicitLeft = 0
-    ExplicitTop = 419
-    ExplicitWidth = 692
+    ExplicitTop = 650
+    ExplicitWidth = 721
   end
-  inherited TabControl1: TTabControl
+  inherited PageControl1: TPageControl
     Width = 721
     Height = 609
+    ActivePage = TabSheet2
+    ExplicitWidth = 721
+    ExplicitHeight = 609
+    inherited TabSheet1: TTabSheet
+      ExplicitWidth = 713
+      ExplicitHeight = 581
+    end
+    inherited TabSheet2: TTabSheet
+      ExplicitLeft = 4
+      ExplicitTop = 24
+      ExplicitWidth = 713
+      ExplicitHeight = 581
+    end
   end
 end

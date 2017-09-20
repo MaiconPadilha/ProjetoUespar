@@ -6,17 +6,22 @@ uses
   U_Estado in 'U_Estado.pas' {F_Estado},
   U_Cidade in 'U_Cidade.pas' {F_Cidade},
   U_Clientes in 'U_Clientes.pas' {F_Clientes},
-  U_Principal in 'U_Principal.pas' {F_Principal};
+  U_Principal in 'U_Principal.pas' {F_Principal},
+  Vcl.Themes,
+  Vcl.Styles,
+  U_DM in 'U_DM.pas' {DM: TDataModule};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
+  TStyleManager.TrySetStyle('Ruby Graphite');
   Application.CreateForm(TF_Principal, F_Principal);
   Application.CreateForm(TF_Modelo, F_Modelo);
   Application.CreateForm(TF_Estado, F_Estado);
   Application.CreateForm(TF_Cidade, F_Cidade);
   Application.CreateForm(TF_Clientes, F_Clientes);
+  Application.CreateForm(TDM, DM);
   Application.Run;
 end.
