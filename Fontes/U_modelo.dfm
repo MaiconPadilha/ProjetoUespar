@@ -182,7 +182,7 @@ object F_Modelo: TF_Modelo
         Width = 50
       end>
   end
-  object PageControl1: TPageControl
+  object PC_Principal: TPageControl
     Left = 0
     Top = 41
     Width = 692
@@ -192,13 +192,10 @@ object F_Modelo: TF_Modelo
     TabOrder = 2
     object TabSheet1: TTabSheet
       Caption = 'Cadastro'
-      ExplicitHeight = 345
     end
     object TabSheet2: TTabSheet
       Caption = 'Consulta'
       ImageIndex = 1
-      ExplicitLeft = 0
-      ExplicitTop = 22
       object GroupBox1: TGroupBox
         Left = 24
         Top = 16

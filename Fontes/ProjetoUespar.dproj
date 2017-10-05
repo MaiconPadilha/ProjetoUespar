@@ -114,10 +114,6 @@
             <Form>F_Cidade</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="U_Clientes.pas">
-            <Form>F_Clientes</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
         <DCCReference Include="U_Principal.pas">
             <Form>F_Principal</Form>
             <FormType>dfm</FormType>

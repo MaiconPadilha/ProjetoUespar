@@ -16,7 +16,7 @@ type
     Spb_Cancelar: TSpeedButton;
     Spb_Editar: TSpeedButton;
     Spb_Excluir: TSpeedButton;
-    PageControl1: TPageControl;
+    PC_Principal: TPageControl;
     TabSheet1: TTabSheet;
     TabSheet2: TTabSheet;
     GroupBox1: TGroupBox;

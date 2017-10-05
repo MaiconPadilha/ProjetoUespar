@@ -97,7 +97,7 @@ begin
   Edt_IDestado.Text := Q_EstadoID_ESTADO.AsString;
   Edt_NomeEstado.Text := Q_EstadoNOME_ESTADO.AsString;
   Edt_Sigla.Text := Q_EstadoSIGLA_ESTADO.AsString;
-  PageControl1.TabIndex := 0;
+  PC_Principal.TabIndex := 0;
 
 end;
 
@@ -126,7 +126,7 @@ begin
   max := DM.FDQ_Estadomax.AsInteger + 1;
   Edt_IDestado.Text := IntToStr(max);
 
-  PageControl1.TabIndex := 0;
+  PC_Principal.TabIndex := 0;
   HabilitaCampos;
   Edt_IDestado.SetFocus;
   Crud := 'Inserir';
