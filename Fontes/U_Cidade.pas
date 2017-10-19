@@ -87,6 +87,7 @@ end;
 procedure TF_Cidade.Spb_inserirClick(Sender: TObject);
 
 var
+  max:Integer;
   X, Y: integer;
 begin
   inherited;
@@ -111,6 +112,13 @@ begin
     Q_Estado.Next;
     X := X + 1;
   end;
+  DM.FDQ_Cidade.Close;
+  DM.FDQ_Cidade.Open();
+  Max:= DM.FDQ_CidadeMax.AsInteger+1 ;
+  Edt_IDCidade.Enabled:=False;
+  Edt_IDCidade.Text:=IntToStr(Max);
+  Edt_NomeCidade.SetFocus;
+
 end;
 
 procedure TF_Cidade.Spb_SalvarClick(Sender: TObject);
@@ -120,7 +128,6 @@ var
   Convert: real;
 begin
   inherited;
-
   if Crud = 'Inserir' then
   begin
     Copia := Copy(CB_IDEstado.Text, 1, 3);

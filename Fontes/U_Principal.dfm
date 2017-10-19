@@ -4,7 +4,7 @@ object F_Principal: TF_Principal
   Caption = 
     '                                                                ' +
     '                       Menu Principal'
-  ClientHeight = 416
+  ClientHeight = 396
   ClientWidth = 647
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -2660,7 +2660,7 @@ object F_Principal: TF_Principal
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Top = 397
+    Top = 377
     Width = 647
     Height = 19
     Panels = <
@@ -2671,8 +2671,6 @@ object F_Principal: TF_Principal
         Text = 'Desenvolvido Por Maicon Padilha'
         Width = 50
       end>
-    ExplicitLeft = 8
-    ExplicitTop = 398
   end
   object MENU: TMainMenu
     Left = 16
@@ -2706,7 +2704,6 @@ object F_Principal: TF_Principal
       end
       object Produto1: TMenuItem
         Caption = 'Produtos'
-        OnClick = Produto1Click
       end
     end
     object Venda1: TMenuItem

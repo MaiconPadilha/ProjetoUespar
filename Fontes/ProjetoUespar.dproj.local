@@ -2,29 +2,32 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2017/08/02 21:20:35.000.698,=C:\Users\Maicon\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2017/08/02 21:21:01.000.883,C:\Documentos\ProjetoUespar\Fontes\U_modelo.dfm=C:\Users\Maicon\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
     <Transaction>2017/08/02 21:21:01.000.883,C:\Documentos\ProjetoUespar\Fontes\U_modelo.pas=C:\Users\Maicon\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/02 21:21:01.000.883,C:\Documentos\ProjetoUespar\Fontes\U_modelo.dfm=C:\Users\Maicon\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
     <Transaction>2017/08/02 21:21:24.000.706,C:\Documentos\ProjetoUespar\Fontes\ProjetoUespar.dproj=C:\Users\Maicon\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>2017/08/02 22:16:09.000.577,=C:\Documentos\ProjetoUespar\Fontes\Unit1.pas</Transaction>
     <Transaction>2017/08/02 22:17:21.000.857,=C:\Documentos\ProjetoUespar\Fontes\Unit2.pas</Transaction>
     <Transaction>2017/08/02 22:18:18.000.406,=C:\Documentos\ProjetoUespar\Fontes\Unit3.pas</Transaction>
-    <Transaction>2017/08/02 22:19:21.000.442,C:\Documentos\ProjetoUespar\Fontes\U_Clientes.pas=C:\Documentos\ProjetoUespar\Fontes\Unit3.pas</Transaction>
     <Transaction>2017/08/02 22:19:21.000.442,C:\Documentos\ProjetoUespar\Fontes\U_Clientes.dfm=C:\Documentos\ProjetoUespar\Fontes\Unit3.dfm</Transaction>
-    <Transaction>2017/08/02 22:20:08.000.308,C:\Documentos\ProjetoUespar\Fontes\U_Cidade.dfm=C:\Documentos\ProjetoUespar\Fontes\Unit2.dfm</Transaction>
+    <Transaction>2017/08/02 22:19:21.000.442,C:\Documentos\ProjetoUespar\Fontes\U_Clientes.pas=C:\Documentos\ProjetoUespar\Fontes\Unit3.pas</Transaction>
     <Transaction>2017/08/02 22:20:08.000.308,C:\Documentos\ProjetoUespar\Fontes\U_Cidade.pas=C:\Documentos\ProjetoUespar\Fontes\Unit2.pas</Transaction>
-    <Transaction>2017/08/02 22:20:18.000.043,C:\Documentos\ProjetoUespar\Fontes\U_Estado.pas=C:\Documentos\ProjetoUespar\Fontes\Unit1.pas</Transaction>
+    <Transaction>2017/08/02 22:20:08.000.308,C:\Documentos\ProjetoUespar\Fontes\U_Cidade.dfm=C:\Documentos\ProjetoUespar\Fontes\Unit2.dfm</Transaction>
     <Transaction>2017/08/02 22:20:18.000.043,C:\Documentos\ProjetoUespar\Fontes\U_Estado.dfm=C:\Documentos\ProjetoUespar\Fontes\Unit1.dfm</Transaction>
+    <Transaction>2017/08/02 22:20:18.000.043,C:\Documentos\ProjetoUespar\Fontes\U_Estado.pas=C:\Documentos\ProjetoUespar\Fontes\Unit1.pas</Transaction>
     <Transaction>2017/08/02 22:21:27.000.085,=C:\Documentos\ProjetoUespar\Fontes\Unit1.pas</Transaction>
-    <Transaction>2017/08/02 22:22:27.000.274,C:\Documentos\ProjetoUespar\Fontes\U_Principal.pas=C:\Documentos\ProjetoUespar\Fontes\Unit1.pas</Transaction>
     <Transaction>2017/08/02 22:22:27.000.274,C:\Documentos\ProjetoUespar\Fontes\U_Principal.dfm=C:\Documentos\ProjetoUespar\Fontes\Unit1.dfm</Transaction>
+    <Transaction>2017/08/02 22:22:27.000.274,C:\Documentos\ProjetoUespar\Fontes\U_Principal.pas=C:\Documentos\ProjetoUespar\Fontes\Unit1.pas</Transaction>
     <Transaction>2017/08/17 21:20:20.000.525,=C:\Documentos\ProjetoUespar\Fontes\Unit1.pas</Transaction>
-    <Transaction>2017/08/17 21:25:14.000.328,C:\Documentos\ProjetoUespar\Fontes\Unit1.dfm=C:\Documentos\ProjetoUespar\Fontes\U_Produtos.dfm</Transaction>
     <Transaction>2017/08/17 21:25:14.000.328,C:\Documentos\ProjetoUespar\Fontes\Unit1.pas=C:\Documentos\ProjetoUespar\Fontes\U_Produtos.pas</Transaction>
+    <Transaction>2017/08/17 21:25:14.000.328,C:\Documentos\ProjetoUespar\Fontes\Unit1.dfm=C:\Documentos\ProjetoUespar\Fontes\U_Produtos.dfm</Transaction>
     <Transaction>2017/08/17 21:25:26.000.885,=C:\Documentos\ProjetoUespar\Fontes\Unit1.pas</Transaction>
     <Transaction>2017/09/13 19:08:08.000.295,=C:\Documentos\ProjetoUespar\Fontes\Unit1.pas</Transaction>
     <Transaction>2017/09/13 19:26:14.000.930,C:\Documentos\ProjetoUespar\Fontes\U_DM.pas=C:\Documentos\ProjetoUespar\Fontes\Unit1.pas</Transaction>
     <Transaction>2017/09/13 19:26:14.000.930,C:\Documentos\ProjetoUespar\Fontes\U_DM.dfm=C:\Documentos\ProjetoUespar\Fontes\Unit1.dfm</Transaction>
     <Transaction>2017/09/13 21:32:14.000.665,C:\Documentos\ProjetoUespar\Fontes\U_Produtos.pas=</Transaction>
     <Transaction>2017/10/04 19:37:21.000.435,C:\Documentos\ProjetoUespar\Fontes\U_Clientes.pas=</Transaction>
+    <Transaction>2017/10/18 19:17:54.000.703,=C:\Documentos\ProjetoUespar\Fontes\Unit1.pas</Transaction>
+    <Transaction>2017/10/18 19:19:03.000.096,C:\Documentos\ProjetoUespar\Fontes\U_Cliente.dfm=C:\Documentos\ProjetoUespar\Fontes\Unit1.dfm</Transaction>
+    <Transaction>2017/10/18 19:19:03.000.096,C:\Documentos\ProjetoUespar\Fontes\U_Cliente.pas=C:\Documentos\ProjetoUespar\Fontes\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

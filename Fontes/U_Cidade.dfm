@@ -179,13 +179,15 @@ inherited F_Cidade: TF_Cidade
   end
   object DS: TDataSource
     DataSet = Q_Cidade
-    Left = 583
-    Top = 268
+    Left = 591
+    Top = 252
   end
   object Q_Cidade: TFDQuery
     Connection = DM.FDConnection1
     SQL.Strings = (
-      'select * from Cidade where Nome_Cidade like :NomeCidade;')
+      
+        'select * from Cidade where Nome_Cidade like :NomeCidade order by' +
+        ' ID_Cidade;')
     Left = 583
     Top = 300
     ParamData = <
@@ -224,7 +226,7 @@ inherited F_Cidade: TF_Cidade
     SQL.Strings = (
       'select Nome_Estado,ID_Estado from Estado order by Nome_Estado;')
     Left = 588
-    Top = 345
+    Top = 353
     object Q_EstadoNOME_ESTADO: TStringField
       FieldName = 'NOME_ESTADO'
       Origin = 'NOME_ESTADO'

@@ -8,7 +8,8 @@ uses
   U_Principal in 'U_Principal.pas' {F_Principal},
   Vcl.Themes,
   Vcl.Styles,
-  U_DM in 'U_DM.pas' {DM: TDataModule};
+  U_DM in 'U_DM.pas' {DM: TDataModule},
+  U_Cliente in 'U_Cliente.pas' {F_Cliente};
 
 {$R *.res}
 
@@ -21,5 +22,6 @@ begin
   Application.CreateForm(TF_Estado, F_Estado);
   Application.CreateForm(TF_Cidade, F_Cidade);
   Application.CreateForm(TDM, DM);
+  Application.CreateForm(TF_Cliente, F_Cliente);
   Application.Run;
 end.

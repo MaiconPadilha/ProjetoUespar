@@ -27,7 +27,6 @@ type
     procedure Estado1Click(Sender: TObject);
     procedure Cidades1Click(Sender: TObject);
     procedure Clientes1Click(Sender: TObject);
-    procedure Produto1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -41,7 +40,7 @@ implementation
 
 {$R *.dfm}
 
-uses U_Cidade, U_Clientes, U_Estado, U_modelo, U_Produtos;
+uses U_Cidade, U_Estado, U_modelo,U_Cliente;
 
 procedure TF_Principal.Cidades1Click(Sender: TObject);
 begin
@@ -50,17 +49,12 @@ end;
 
 procedure TF_Principal.Clientes1Click(Sender: TObject);
 begin
-F_Clientes.ShowModal;
+F_Cliente.ShowModal;
 end;
 
 procedure TF_Principal.Estado1Click(Sender: TObject);
 begin
   F_Estado.ShowModal;
-end;
-
-procedure TF_Principal.Produto1Click(Sender: TObject);
-begin
-F_Produtos.ShowModal;
 end;
 
 end.
